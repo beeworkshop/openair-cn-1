@@ -11,3 +11,7 @@ openair-cn.creator
 openair-cn.creator.user
 openair-cn.files
 openair-cn.includes
+
+# vim swaps
+*.swp
+*.swo
