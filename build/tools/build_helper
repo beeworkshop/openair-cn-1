@@ -632,8 +632,8 @@ check_install_hss_software() {
     libsctp-dev \
     libssl-dev \
     libtool \
-    mysql-client \
-    mysql-server \
+    mariadb-client \
+    mariadb-server \
     openssl
 
   install_nettle_from_source $1
