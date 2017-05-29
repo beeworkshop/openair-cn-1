@@ -25,7 +25,6 @@ local_config_dir=/usr/local/etc/oai
 # Replace config info in mme, spgw,  config files
 sudo sed -i "s/ETH_NAME_REPLACE/$eth_name/g"  $local_config_dir/mme.conf
 sudo sed -i "s/ETH_NAME_REPLACE/$eth_name/g"  $local_config_dir/spgw.conf
-sudo sed -i "s/ETH_NAME_REPLACE/$eth_name/g"  $local_config_dir/spgw.conf
 sudo sed -i "s/WIFI_NAME_REPLACE/$wifi_name/g" $local_config_dir/spgw.conf
 sudo sed -i "s/WIFI_IP_REPLACE/$wifi_addr/g"   $local_config_dir/spgw.conf
 sudo sed -i "s/WIFI_NETMASK_REPLACE/$net_mask_cidr/g" $local_config_dir/spgw.conf
